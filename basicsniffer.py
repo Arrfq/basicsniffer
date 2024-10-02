@@ -73,7 +73,7 @@ if __name__ == "__main__":
     
     #Wrong argument
     if len(sys.argv)<2 or len(sys.argv)>3:
-        print("Usage: python basicsniffer.py <interface> <packet_count> in integer>")
+        print("Usage: python basicsniffer.py <interface> <packet_count_in_integer>")
         sys.exit(1)
 
     main()
