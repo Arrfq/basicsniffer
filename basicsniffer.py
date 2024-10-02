@@ -54,6 +54,7 @@ def main():
                 sniff(iface=int_name, prn=packet_handler, store=0)
             except KeyboardInterrupt:
                 print(f"Sniffing ended by user. Numbers of sniffed packet = {packet_count}")
+                sys.exit(0)
 
     # If the script is run with count parameters
     else:
